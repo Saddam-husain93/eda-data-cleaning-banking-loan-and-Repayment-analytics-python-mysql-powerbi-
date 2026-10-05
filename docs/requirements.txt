@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+openpyxl
+mysql-connector-python
+python-dotenv
