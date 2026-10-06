@@ -269,21 +269,23 @@ Data modeling, KPI cards, categorical comparisons, time-series reporting, filter
 # Repository Structure
 
 ```text
+eda-data-cleaning-banking-loan-and-Repayment-analytics-python-mysql-powerbi
 banking_project/
-├── README.md
-├── SCHEMA.md
-├── PROJECT_STRUCTURE.md
-├── requirements.txt
+└── docs/
+|    ├── PROJECT_DOCUMENTATION.md
+|    ├── PROJECT_STRUCTURE.md
+|    ├── requirements.txt
+|
 ├── notebooks/
-│   └── 02_sql_business_analysis.ipynb
+│   └── 01_data_cleanning_eda.ipynb
 ├── sql/
 │   └── banking_analysis.sql
 ├── powerbi/
 │   └── DAX_MEASURES.md
-└── docs/
-    ├── PROJECT_DOCUMENTATION.md
-    ├── INTERVIEW_PROJECT_WALKTHROUGH.md
-    └── RESUME_PROJECT_ENTRY.md
+|    |__ banking_analysis_dashboard.pdf
+|
+├── README.md
+├── SCHEMA.md
 ```
 
 See `docs/PROJECT_DOCUMENTATION.md` for the detailed EDA, interpretations, recommendations.
